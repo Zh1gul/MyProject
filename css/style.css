@@ -2,4 +2,85 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+.container {
+  max-width: 1142px;
+  margin: auto;
+}
+
+.navbar-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar-logo {
+  width: 131px;
+  height: 35px;
+  margin-right: 465px;
+  margin-top: 28px;
+}
+
+.navbar-links {
+  width: 531px;
+  height: 15px;
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar__links {
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #777777;
+  letter-spacing: 1.05px;
+  position: relative;
+}
+
+.navbar__links:focus {
+  color: black;
+}
+
+.navbar__links:focus::before {
+  content: '';
+  width: 18px;
+  height: 1px;
+  background-color: black;
+  position: absolute;
+  top: 70%;
+  left: -30px;
+}
+
+.navbar-search-btn:visited {
+  color: #777777;
+}
+
+.navbar-search-txt {
+  width: 0;
+  border: none;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.navbar-search-box {
+  color: #777777;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1.05px;
+  margin-top: 3px;
+}
+
+.navbar-search-box:hover .navbar-search-txt {
+  width: 150px;
+  padding: 0 6px;
+  border: 1px solid;
+}
 /*# sourceMappingURL=style.css.map */

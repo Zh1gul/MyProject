@@ -1,0 +1,62 @@
+.navbar 
+  &-wrap
+    display: flex
+  &-logo
+    width: 131px
+    height: 35px
+    margin-right: 465px
+    margin-top: 28px
+  &-links
+    width: 531px
+    height: 15px
+    margin-top: 40px
+    display: flex
+    justify-content: space-between
+  &__links
+    text-decoration: none
+    font-family: Roboto
+    font-size: 14px
+    font-weight: 700
+    line-height: 24px
+    text-transform: uppercase
+    color: #777777;
+    letter-spacing: 1.05px;
+    position: relative
+
+    &:focus
+      color: black
+      &::before
+        content: ''
+        width: 18px
+        height: 1px
+        background-color: black
+        position: absolute
+        top: 70%
+        left: -30px
+
+
+  &-search
+    &-btn 
+      &:visited
+        color:#777777 
+    &-txt 
+      width: 0
+      border: none
+      transition: 0.4s
+    &-box
+      color: #777777
+      font-size: 14px
+      font-weight: 400
+      letter-spacing: 1.05px
+      margin-top: 3px
+      &:hover
+        .navbar-search-txt
+          width: 150px
+          padding: 0 6px
+          border: 1px solid 
+
+
+      
+        
+        
+
