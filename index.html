@@ -12,18 +12,17 @@
   
 </head>
 <body>
-  <header class="header">
+  <header>
     <div class="navbar">
       <div class="container">
-        <div class="navbar-wrap">
-
-          <div class="navbar-logo">
-            <img src="img/logo.png" alt="">
-          </div>
+      <div class="navbar-wrap">
+        <div class="navbar-logo">
+          <img class="navbar__logo" src="img/logo.png" alt="">
+        </div>
           <div class="navbar-links">
-            <a class="navbar__links" href="#">HOME</a>
-            <a class="navbar__links" href="#">ABOUT</a>
-            <a class="navbar__links" href="#">PORTFOLIO</a>
+            <a class="navbar__links" href="index.html">HOME</a>
+            <a class="navbar__links" href="about.html">ABOUT</a>
+            <a class="navbar__links" href="portfolio.html">PORTFOLIO</a>
             <a class="navbar__links" href="#">BLOG</a>
             <a class="navbar__links" href="#">CONTACT</a>
             <div class="navbar-search-box">
@@ -36,7 +35,7 @@
       </div>
      </div>
   </header>
-  <main>
+  <main class="content">
     <section class="section before">
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -80,8 +79,8 @@
 
     </section>
     <section class="section">
-      <div class="menu">
-        <div class="container">
+        <div class="container menu-bar">
+          <div class="menu-line"></div>
           <div class="menu-wrap">
             <a class="menu__links" href="#">ALL</a>
             <a class="menu__links" href="#">LOGO</a>
@@ -91,12 +90,27 @@
             <a class="menu__links" href="#">UI/IX</a>
             <a class="menu__links" href="#">BRANDING</a>
         </div>
-      </div>
+        <div class="menu-line"></div>
       </div>
 
 
     </section>
   </main>
+  <footer class="footer">
+    <div class="container footer-logo">
+        <img class="footer__logo" src="img/logo.png" alt="">
+    </div>
+    <div class="container footer-img">
+    <div class="social-list">
+        <a social-links href="https://twitter.com"> <img class="twitter-logo" src="img/Twitter_bird_logo_2012.svg.png" alt="">
+        </a>
+        <a social-links href="https://instagram.com"> <img class="inst-logo" src="img/JCDwevVeMKA.jpg" alt="">
+        </a>
+        <a social-links href="https://facebook.com"> <img class="facebook-logo" src="img/fb.png" alt="">
+        </a>
+    </div>
+    </div>
+  </footer>
   <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
