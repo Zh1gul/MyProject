@@ -23,6 +23,10 @@ body {
           flex: 1 0 auto;
 }
 
+.section {
+  padding: 10px 0;
+}
+
 .container {
   max-width: 1142px;
   margin: auto;
@@ -127,6 +131,15 @@ body {
   border: 1px solid;
 }
 
+.heading-img {
+  min-width: 100%;
+  margin-top: 20px;
+}
+
+.about-main {
+  margin-top: 50px;
+}
+
 @media (max-width: 1199px) {
   .navbar-logo {
     margin-right: 200px;
@@ -207,6 +220,38 @@ body {
   color: black;
 }
 
+.menu-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu__images1, .menu__images3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 100px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.menu__images2 {
+  margin-top: 50px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.menu__img {
+  padding: 10px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
 .footer {
   -ms-flex-negative: 1;
       flex-shrink: 1;
@@ -254,5 +299,24 @@ body {
 
 .facebook-logo {
   width: 28px;
+}
+
+.about-main {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.text-first {
+  margin-left: 100px;
+}
+
+.text-second {
+  text-align: center;
+}
+
+.text-content {
+  max-width: 800px;
 }
 /*# sourceMappingURL=style.css.map */
