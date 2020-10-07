@@ -79,13 +79,7 @@
         <div class="container menu-bar">
           <div class="menu-line"></div>
           <div class="menu-wrap">
-            <a id="switch" class="menu__links" href="#">ALL</a>
-            <a id="switch" class="menu__links" href="#">LOGO</a>
-            <a id="switch" class="menu__links" href="#">MOBILE APP</a>
-            <a id="switch" class="menu__links" href="#">WORDPRESS</a>
-            <a id="switch" class="menu__links" href="#">WEB DESIGN</a>
-            <a id="switch" class="menu__links" href="#">UI/IX</a>
-            <a id="switch" class="menu__links" href="#">BRANDING</a>
+            <button class="menu__links" >ALL</button>
         </div>
         <div class="menu-line"></div>
       </div>
@@ -128,5 +122,10 @@
   </footer>
   <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    $('.menu__links').on('click', function (){
+      $('.menu__img').toggleClass('flex'); 
+    });
+  </script>
 </body>
 </html>
