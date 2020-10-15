@@ -172,6 +172,21 @@ body {
   }
 }
 
+@media (max-width: 376px) {
+  .navbar-logo {
+    margin-right: 0px;
+    width: 100px;
+  }
+  .navbar__logo {
+    height: 20px;
+    margin-right: 0px;
+  }
+  .navbar__links {
+    font-size: 10px;
+    margin-left: 5px;
+  }
+}
+
 .before {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -279,6 +294,19 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+@media (max-width: 376px) {
+  .menu-wrap {
+    margin-left: 0;
+    width: 350px;
+  }
+  .menu__links {
+    font-size: 10px;
+  }
+  .menu_hide {
+    display: none;
+  }
 }
 
 .footer-logo {
