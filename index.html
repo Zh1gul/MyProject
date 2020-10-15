@@ -75,11 +75,18 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-     <section class=" section ">
+    </section>
+     <section class="section">
         <div class="container menu-bar">
           <div class="menu-line"></div>
           <div class="menu-wrap">
             <button class="menu__links" >ALL</button>
+            <button class="menu__links">LOGO</button>
+            <button class="menu__links">MOBILE APP</button>
+            <button class="menu__links">WORDPRESS</button>
+            <button class="menu__links">WEB DESIGN</button>
+            <button class="menu__links">UI|IX</button>
+            <button class="menu__links">BRANDING</button>
         </div>
         <div class="menu-line"></div>
       </div>
@@ -89,17 +96,17 @@
       <div class="menu__images1">
         <img class="menu__img" src="img/menu-images/menu-img-1.png" alt="">
         <img class="menu__img" src="img/menu-images/menu-img-2.png" alt="">
-        <img class="menu__img" src="img/menu-images/menu-img-3.png" alt="">
+        <img class="menu__img hidden" src="img/menu-images/menu-img-3.png" alt="">
       </div>
       <div class="menu__images2">
         <img class="menu__img" src="img/menu-images/menu-img-4.png" alt="">
         <img class="menu__img" src="img/menu-images/menu-img-5.png" alt="">
-        <img class="menu__img" src="img/menu-images/menu-img-6.png" alt="">
+        <img class="menu__img hidden" src="img/menu-images/menu-img-6.png" alt="">
       </div>
-      <div class="menu__images3">
+      <div class="menu__images1">
         <img class="menu__img" src="img/menu-images/menu-img-7.png" alt="">
         <img class="menu__img" src="img/menu-images/menu-img-8.png" alt="">
-        <img class="menu__img" src="img/menu-images/menu-img-9.png" alt="">
+        <img class="menu__img hidden" src="img/menu-images/menu-img-9.png" alt="">
       </div>
     </div>
   </section>
@@ -111,11 +118,11 @@
     </div>
     <div class="container footer-img">
     <div class="social-list">
-        <a social-links href="https://twitter.com"> <img class="twitter-logo" src="img/Twitter_bird_logo_2012.svg.png" alt="">
+        <a class="social-links" href="https://twitter.com"> <img class="twitter-logo" src="img/Twitter_bird_logo_2012.svg.png" alt="">
         </a>
-        <a social-links href="https://instagram.com"> <img class="inst-logo" src="img/JCDwevVeMKA.jpg" alt="">
+        <a class="social-links" href="https://instagram.com"> <img class="inst-logo" src="img/JCDwevVeMKA.jpg" alt="">
         </a>
-        <a social-links href="https://facebook.com"> <img class="facebook-logo" src="img/fb.png" alt="">
+        <a class="social-links" href="https://facebook.com"> <img class="facebook-logo" src="img/fb.png" alt="">
         </a>
     </div>
     </div>
@@ -124,7 +131,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script>
     $('.menu__links').on('click', function (){
-      $('.menu__img').toggleClass('flex'); 
+      $('.hidden').toggleClass('flex'); 
     });
   </script>
 </body>

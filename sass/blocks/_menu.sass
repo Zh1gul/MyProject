@@ -1,10 +1,10 @@
 .menu
   &-line
-    margin-top: 40px
+    padding-top: 30px
     border-bottom: 1px solid #777777  
   &-wrap
     display: flex
-    margin-top: 40px
+    margin-top: 25px
     justify-content: space-between
     height: 15px
     width: 741px
@@ -19,13 +19,16 @@
     text-transform: uppercase
     color: #777777
     letter-spacing: 1.05px
+    border: none
+    background-color: white
     &:focus
       color: black
+      outline: none
     &:hover
       color: black
   &-img
     display: flex
-  &__images1, &__images3
+  &__images1
     display: flex
     margin-top: 100px
     flex-direction: column
@@ -35,7 +38,9 @@
   &__img
     padding: 10px
     flex-grow: 1
-    display: none
+    display: flex
+.hidden
+  display: none
 .flex
   display: flex
 
