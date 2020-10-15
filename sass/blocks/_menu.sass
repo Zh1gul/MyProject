@@ -1,14 +1,15 @@
 .menu
-  &-line
-    padding-top: 30px
+  &-line-1
+    margin-top: 33px
+    border-bottom: 1px solid #777777  
+  &-line-2
     border-bottom: 1px solid #777777  
   &-wrap
     display: flex
-    margin-top: 25px
+    margin: 23px auto
     justify-content: space-between
     height: 15px
     width: 741px
-    margin-left: 250px
 
   &__links
     text-decoration: none
@@ -31,27 +32,75 @@
   &__images1
     display: flex
     margin-top: 100px
+    margin-bottom: 150px
     flex-direction: column
   &__images2
+    display: flex
     margin-top: 50px
     flex-direction: column    
   &__img
     padding: 10px
     flex-grow: 1
     display: flex
+  &-btn
+    &-img
+      display: flex
+      justify-content: center
+      margin-top: 36px
+    &-more
+      width: 125px
+      height: 30px
+      background-color: #959595
+      color: #fff 
+      text-decoration: none
+      user-select: none
+      outline: none
+      border-width: 2px 0;
+      border-style: solid none;
+      border-radius: 3px;
+      font-family: Roboto;
+      font-size: 10px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.58;
+      letter-spacing: 0.65px;
 .hidden
   display: none
 .flex
   display: flex
-@media ( max-width: 500px )
+@media  ( max-width: 1199px )
   .menu
     &-wrap
-      margin-left: 0
-      width: 350px
+      width: 600px
+@media  ( max-width: 991px )
+  .menu 
+    width: 450px
+    &__images1
+      display: none
+    &-img
+      margin: auto
+      justify-content: center
+@media  ( max-width: 768px )
+  .menu
+    &-wrap 
+      width: 450px
     &__links
       font-size: 10px
-    &_hide
-      display: none 
+@media ( max-width: 500px )
+  .menu
+    &-line
+      margin-bottom: 0
+    &-wrap
+      margin: auto
+      width: 350px
+      flex-wrap: wrap
+      align-content: space-between
+      height: 60px
+    &__links
+      font-size: 15px
+
+
 
 
 
