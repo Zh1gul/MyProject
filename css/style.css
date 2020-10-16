@@ -372,8 +372,11 @@ body {
 }
 
 @media (max-width: 500px) {
-  .menu-line {
-    margin-bottom: 0;
+  .navbar-logo {
+    margin-left: -10px;
+  }
+  .menu-line-2 {
+    margin-top: 5px;
   }
   .menu-wrap {
     margin: auto;
@@ -385,7 +388,7 @@ body {
     height: 60px;
   }
   .menu__links {
-    font-size: 10px;
+    font-size: 13px;
   }
 }
 
@@ -453,6 +456,12 @@ body {
 
 .facebook-logo {
   width: 28px;
+}
+
+@media (max-width: 500px) {
+  .footer-letter {
+    font-size: 10px;
+  }
 }
 
 .heading-img {
