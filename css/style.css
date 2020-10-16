@@ -58,6 +58,7 @@ body {
   width: 100%;
   -webkit-box-shadow: 0px 1px 0px 0px #777777;
           box-shadow: 0px 1px 0px 0px #777777;
+  border: none;
 }
 
 .navbar-wrap {
@@ -167,6 +168,10 @@ body {
 }
 
 @media (max-width: 768px) {
+  .navbar {
+    -webkit-box-shadow: 0px 0px 0px 0px #777777;
+            box-shadow: 0px 0px 0px 0px #777777;
+  }
   .navbar-links {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
@@ -187,6 +192,10 @@ body {
 }
 
 @media (max-width: 500px) {
+  .navbar {
+    -webkit-box-shadow: 0px 0px 0px 0px #777777;
+            box-shadow: 0px 0px 0px 0px #777777;
+  }
   .navbar-logo {
     margin-right: 0px;
     width: 100px;
