@@ -56,12 +56,13 @@ body {
 
 .navbar {
   width: 100%;
-  -webkit-box-shadow: 0px 1px 0px 0px #777777;
-          box-shadow: 0px 1px 0px 0px #777777;
+  -webkit-box-shadow: 0px 1px 0px 0px #e1e1e1;
+          box-shadow: 0px 1px 0px 0px #e1e1e1;
   border: none;
 }
 
 .navbar-wrap {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -147,8 +148,9 @@ body {
 }
 
 .heading-img {
-  min-width: 100%;
+  margin-left: 550px;
   margin-top: 20px;
+  height: 250px;
 }
 
 .about-main {
