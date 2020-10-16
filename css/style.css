@@ -50,6 +50,16 @@ body {
   }
 }
 
+.heading {
+  padding-top: 0;
+}
+
+.navbar {
+  width: 100%;
+  -webkit-box-shadow: 0px 1px 0px 0px #777777;
+          box-shadow: 0px 1px 0px 0px #777777;
+}
+
 .navbar-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -104,6 +114,10 @@ body {
 
 .navbar__links:focus {
   color: black;
+}
+
+.navbar-search-btn {
+  color: #777777;
 }
 
 .navbar-search-btn:visited {
@@ -185,6 +199,10 @@ body {
     font-size: 10px;
     margin-left: 5px;
   }
+}
+
+.black {
+  color: black;
 }
 
 @media (max-width: 768px) {
@@ -437,8 +455,12 @@ body {
   width: 28px;
 }
 
+.heading-img {
+  margin-top: 0;
+  width: 1112px;
+}
+
 .about-main {
-  margin-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -454,5 +476,97 @@ body {
 
 .text-content {
   max-width: 800px;
+}
+
+.title-text {
+  text-align: center;
+  margin-top: 70px;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: 4.5px;
+  color: #333333;
+}
+
+.clarification {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 420px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.57;
+  letter-spacing: 0.35px;
+  text-align: center;
+  color: #777777;
+}
+
+.post-img {
+  text-align: center;
+}
+
+.post-text {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+  width: 809px;
+}
+
+.post__text {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.14;
+  letter-spacing: 0.35px;
+  text-align: left;
+  color: #777777;
+}
+
+.text-inborder {
+  margin: auto;
+  margin-top: 10px;
+  width: 942px;
+  height: 130px;
+  border: solid 2px #e1e1e1;
+  border-left: 4px solid #777777;
+}
+
+.text__inborder {
+  ont-family: PTSerif;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #777777;
+}
+
+.heading-3 {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 2.25;
+  letter-spacing: 0.4px;
+  color: #333333;
 }
 /*# sourceMappingURL=style.css.map */
