@@ -1,10 +1,10 @@
 .heading
   &-img
-    margin-top: 0
-    width: 1112px
+    margin: auto
+    width: 100%
 .about
   &-main
-    display: flex
+    display: flex 
 .text
   &-first
     margin-left: 100px
@@ -12,6 +12,15 @@
     text-align: center
   &-content
     max-width: 800px
-
-
-    
+@media  ( max-width: 1199px )  
+  .about
+    &-content
+      width: 300px
+      height: 400px
+  .text
+    &-first
+      margin-left: 30px
+@media ( max-width: 500px )
+  .about
+    &-content
+      display: none
