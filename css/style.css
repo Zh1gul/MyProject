@@ -603,20 +603,27 @@ body {
   }
 }
 
-.info {
-  margin-top: 87px;
-  width: 700px;
-}
-
-.info-form {
+.box-info-form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.box-form-big {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  margin: auto;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.info {
+  margin-top: 87px;
 }
 
 .info-h1 {
@@ -627,7 +634,6 @@ body {
   font-style: normal;
   line-height: 0.8;
   letter-spacing: 12px;
-  text-align: left;
   color: #2f302f;
   text-transform: uppercase;
   margin-bottom: 18px;
@@ -641,7 +647,6 @@ body {
   font-style: normal;
   line-height: 1.88;
   letter-spacing: 0.4px;
-  text-align: left;
   color: #2f302f;
 }
 
@@ -649,11 +654,11 @@ body {
   margin-top: 18px;
   border-bottom: 2px solid #777777;
   width: 60px;
-  margin-bottom: 45px;
+  margin-bottom: 35px;
 }
 
 .info__calendar {
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 .info-calendar {
@@ -664,7 +669,6 @@ body {
   font-style: normal;
   line-height: 1.6;
   letter-spacing: 0.38px;
-  text-align: left;
   color: #777777;
 }
 
@@ -679,18 +683,17 @@ body {
 }
 
 .form {
-  margin: auto;
   margin-top: 87px;
+  margin-left: 35px;
 }
 
 .form-mini {
-  width: 358px;
   height: 40px;
   border: solid 1px #ebebeb;
+  width: 350px;
 }
 
 .form-big {
-  width: 748px;
   height: 150px;
   border-radius: 2px;
   border: solid 1px #ebebeb;
@@ -698,8 +701,17 @@ body {
 }
 
 .form-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  margin-top: 29px;
+}
+
+.form_button {
   color: #fff;
-  width: 218px;
   height: 39px;
   border-width: 1px 0;
   border-style: solid none;
@@ -714,5 +726,15 @@ body {
   letter-spacing: 0.7px;
   text-align: center;
   text-transform: uppercase;
+  width: 218px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.black {
+  margin-top: 79px;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,10 +1,12 @@
+.box
+  &-info-form
+    display: flex
+    justify-content: space-between
+  &-form-big
+    display: flex
+    flex-direction: column
 .info
   margin-top: 87px
-  width: 700px
-  &-form
-    display: flex
-    flex-direction: row 
-    margin: auto
   &-h1
     font-family: Roboto
     font-size: 30px
@@ -13,7 +15,6 @@
     font-style: normal
     line-height: 0.8
     letter-spacing: 12px
-    text-align: left
     color: #2f302f
     text-transform: uppercase
     margin-bottom: 18px
@@ -25,15 +26,14 @@
     font-style: normal
     line-height: 1.88
     letter-spacing: 0.4px
-    text-align: left
     color: #2f302f
   &-line
     margin-top: 18px
     border-bottom: 2px solid #777777  
     width: 60px
-    margin-bottom: 45px
+    margin-bottom: 35px
   &__calendar 
-    margin-bottom: 30px
+    margin-bottom: 25px
   &-calendar
     font-family: Roboto
     font-size: 15px
@@ -42,7 +42,6 @@
     font-style: normal
     line-height: 1.6
     letter-spacing: 0.38px
-    text-align: left
     color: #777777
     &-bold 
       font-weight: bold
@@ -51,21 +50,23 @@
         color: #555555
         font-weight: bold
 .form
-  margin: auto
   margin-top: 87px
+  margin-left: 35px
   &-mini 
-    width: 358px
     height: 40px
     border: solid 1px #ebebeb   
+    width: 350px   
   &-big 
-    width: 748px
     height: 150px
     border-radius: 2px
     border: solid 1px #ebebeb
-    margin-top: 40px
+    margin-top: 40px    
   &-button 
+    display: flex
+    justify-content: left
+    margin-top: 29px
+  &_button 
     color: #fff 
-    width: 218px
     height: 39px
     border-width: 1px 0
     border-style: solid none
@@ -80,4 +81,9 @@
     letter-spacing: 0.7px
     text-align: center
     text-transform: uppercase
+    width: 218px 
+    justify-content: center
+.black
+  margin-top: 79px
+  filter: grayscale(100%)
     
