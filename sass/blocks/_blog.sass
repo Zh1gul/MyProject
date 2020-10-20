@@ -1,0 +1,54 @@
+.blog
+  &-post 
+    width: 350px
+    &:hover
+      text-decoration: none    
+    &-menu
+      margin-right: 50px
+    &-h1
+      font-size: 20px
+      font-weight: bold
+      line-height: 1.5
+      color: #333333
+    &-p 
+      margin: auto
+      font-family: Roboto
+      font-size: 14px
+      font-weight: normal
+      font-stretch: normal
+      font-style: normal
+      line-height: 1.71
+      letter-spacing: normal
+      text-align: left
+      color: #777777
+    &-span 
+      font-size: 13px
+      font-weight: bold
+      line-height: 2.31
+      color: #cccccc
+.img
+  &-hover 
+    background: url('../img/menu-images/menu-img-1.png') no-repeat center top
+    height: 100%
+    width: 100%
+    &:hover 
+      p 
+        display: block
+        background: rgba(0, 0, 0, 0.5)
+        cursor: pointer
+      
+.p
+  &-hover 
+    height: 100%
+    display: none
+    font-size: 10px
+    text-align: center
+    color: #fff
+    animation: fade .5s linear forwards
+@keyframes fade 
+  0% 
+    opacity: 0;
+  
+  100% 
+    opacity: 1;
+  
