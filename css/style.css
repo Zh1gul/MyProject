@@ -799,6 +799,10 @@ textarea {
   width: 350px;
 }
 
+.blog-post-img2 {
+  margin-top: 30px;
+}
+
 .blog-post:hover {
   text-decoration: none;
 }
@@ -834,14 +838,72 @@ textarea {
   color: #cccccc;
 }
 
-.img-hover {
-  background: url("../img/menu-images/menu-img-1.png") no-repeat center top;
-  height: 100%;
+.blog-post-span2 {
+  margin: auto;
+  margin-top: 0;
+}
+
+.blog-post-title {
+  margin: auto;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #ffffff;
+  margin-left: 40px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.img__hover {
+  margin: auto;
+  width: 110px;
+  height: 26px;
+  margin-left: 40px;
+  margin-top: 29px;
+  margin-bottom: 0;
+  background-color: #000000;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  color: #ffffff;
+  padding-top: 3px;
+}
+
+.img-hover2 {
+  background: url("../img/menu-images/menu-img-3.png") no-repeat center top;
+  height: 300px;
   width: 100%;
 }
 
-.img-hover:hover p {
-  display: block;
+.img-hover2:hover div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.img-hover {
+  background: url("../img/menu-images/menu-img-5.png") no-repeat center top;
+  height: 300px;
+  width: 100%;
+}
+
+.img-hover:hover div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background: rgba(0, 0, 0, 0.5);
   cursor: pointer;
 }
@@ -854,6 +916,19 @@ textarea {
   color: #fff;
   -webkit-animation: fade .5s linear forwards;
           animation: fade .5s linear forwards;
+}
+
+.p__hover {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: left;
+  color: #e5e5e5;
+  margin-left: 40px;
 }
 
 @-webkit-keyframes fade {
