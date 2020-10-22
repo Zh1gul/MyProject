@@ -213,6 +213,16 @@ body {
   }
 }
 
+@media (max-width: 500px) {
+  .carousel-inner {
+    height: 200px;
+  }
+  .d-block {
+    width: 450px;
+    height: 200px;
+  }
+}
+
 .menu-line-1 {
   margin-top: 33px;
   border-bottom: 1px solid #777777;
@@ -797,6 +807,7 @@ textarea {
 
 .blog-post {
   width: 350px;
+  margin-bottom: 30px;
 }
 
 .blog-post-img2 {
@@ -809,6 +820,7 @@ textarea {
 
 .blog-post-menu {
   margin-right: 50px;
+  margin-top: 50px;
 }
 
 .blog-post-h1 {
@@ -853,13 +865,9 @@ textarea {
   margin-top: 0;
 }
 
-.img__hover {
-  margin: auto;
+.img__title {
   width: 110px;
   height: 26px;
-  margin-left: 40px;
-  margin-top: 29px;
-  margin-bottom: 0;
   background-color: #000000;
   font-family: Roboto;
   font-size: 13px;
@@ -870,6 +878,14 @@ textarea {
   letter-spacing: normal;
   color: #ffffff;
   padding-top: 3px;
+  text-align: center;
+}
+
+.img__hover {
+  margin: auto;
+  margin-left: 40px;
+  margin-top: 29px;
+  margin-bottom: 30px;
 }
 
 .img-hover2 {
