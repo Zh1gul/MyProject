@@ -4,9 +4,6 @@
   &-info-form
     display: flex
     justify-content: space-between
-  &-form-big
-    display: flex
-    flex-direction: column
 .info
   margin-top: 87px
   &-h1
@@ -117,4 +114,25 @@ textarea
     height: 230px
 .cards 
   width: 330px
+@media ( max-width: 500px )
+  .form 
+    margin: auto
+    margin-top: 50px
+  .values
+    &-images 
+      flex-direction: column
+    &-info 
+      width: 100%
+  .box 
+    &-info-form
+      flex-direction: column
+  .form 
+    &-mini 
+      width: 60%
+      height: 100%
+    &-name 
+      margin-bottom: 10px
+  textarea 
+    width: 60%
+    height: 50px
     

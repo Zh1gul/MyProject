@@ -196,6 +196,9 @@ body {
     font-size: 10px;
     margin-left: 5px;
   }
+  .navbar__links:hover::before {
+    display: none;
+  }
 }
 
 .black {
@@ -627,16 +630,6 @@ body {
           justify-content: space-between;
 }
 
-.box-form-big {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
 .info {
   margin-top: 87px;
 }
@@ -803,6 +796,39 @@ textarea {
 
 .cards {
   width: 330px;
+}
+
+@media (max-width: 500px) {
+  .form {
+    margin: auto;
+    margin-top: 50px;
+  }
+  .values-images {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .values-info {
+    width: 100%;
+  }
+  .box-info-form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .form-mini {
+    width: 60%;
+    height: 100%;
+  }
+  .form-name {
+    margin-bottom: 10px;
+  }
+  textarea {
+    width: 60%;
+    height: 50px;
+  }
 }
 
 .blog-post {
